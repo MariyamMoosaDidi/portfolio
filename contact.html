@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Mariyam Moosa Didi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwUEQp2/EkOZdI0I9Oa9HkE4dZs7A9u1Kp0dH1xg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <a href="index.html">Maya Hart</a>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="gallery.html">Gallery</a>
+          <a class="active" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <section class="container contact-wrap">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h1>Let’s build something meaningful together.</h1>
+          <p>
+            If you’re looking for a web developer and designer for your next
+            project, send a message and I’ll be in touch.
+          </p>
+          <div class="contact-details">
+            <p><i class="fa-solid fa-envelope"></i> hello@mariyammoosadidi.dev</p>
+            <p><i class="fa-solid fa-phone"></i> +1 (555) 720-9012</p>
+          </div>
+        </div>
+
+        <div class="contact-form-panel">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input id="full-name" type="text" placeholder="Your full name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Your email address" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Contact Number</label>
+              <input id="phone" type="tel" placeholder="Your contact number" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn primary full-width">Send Message</button>
+            <p class="form-success">Thank you! Your message has been sent successfully.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; 2026 Mariyam Moosa Didi</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
